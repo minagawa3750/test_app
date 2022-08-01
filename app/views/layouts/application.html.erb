@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>TestApp</title>
+    <title>Test41</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
@@ -10,6 +10,14 @@
   </head>
 
   <body>
+    <header>
+       <h1>Ruby on Rails スケジュール管理アプリ</h1>
+     </header>
+     
     <%= yield %>
+    
+   <footer>
+     <h1>本日の日付：<%= get_today_date %>　スケジュール合計:<%= get_user_count %></h1>
+   </footer>
   </body>
 </html>

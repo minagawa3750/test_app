@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  title: MyString
+  start_day: 2022-07-28 10:15:11
+  fnisih_day: 2022-07-28 10:15:11
+  free_check: false
+  updated_at: 2022-07-28 10:15:11
+  created_at: 2022-07-28 10:15:11
+  memo: MyString
+
+two:
+  title: MyString
+  start_day: 2022-07-28 10:15:11
+  fnisih_day: 2022-07-28 10:15:11
+  free_check: false
+  updated_at: 2022-07-28 10:15:11
+  created_at: 2022-07-28 10:15:11
+  memo: MyString
