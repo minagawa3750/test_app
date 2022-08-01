@@ -1,0 +1,10 @@
+ ja:
+   activerecord:
+     models:
+       user: ユーザー
+     attributes:
+       user:
+         title: タイトル
+         start_day: 開始日
+         finish_day: 終了日
+         memo: メモ
